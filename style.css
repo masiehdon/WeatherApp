@@ -1,0 +1,142 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+#search {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#search div {
+  display: inline-block;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#input-city {
+  text-align: center;
+  width: 60%;
+  border: none;
+  font-size: 16px;
+  padding: 12px 20px;
+  border-radius: 5px 0 0 5px;
+  box-sizing: border-box;
+  padding: 0.6rem;
+}
+
+#searchBtn {
+  margin: 1%;
+  width: 40%;
+  border: none;
+  font-size: 16px;
+  color: white;
+  background-color: #0066c0;
+  padding: 12px 20px;
+  border-radius:  5px 5px ;
+  cursor: pointer;
+}
+
+#display {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#display h3 {
+  margin: 0;
+  font-size: 32px;
+  color: #0066c0;
+}
+
+#display-temp {
+  display: inline-block;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+
+#display-temp ul {
+  display: block;
+  justify-content: center;
+  padding: 0;
+}
+
+#display-temp li {
+  list-style: none;
+  font-size: 16px;
+  margin: 10px 10px;
+  text-align: center;
+}
+
+
+#display-temp #temp {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#temp{
+  color: crimson;
+}
+
+@media screen and (max-width: 600px) {
+  #display h3 {
+    font-size: 24px;
+  }
+
+  #display-temp {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #display-temp li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #search{
+    height: 40%;
+    
+  }
+  #search div{
+    width: 100%;
+    height: 100%;
+    
+  }
+  #input-city {
+    width: 100%;
+  }
+
+  #searchBtn {
+    width: 50%;
+  }
+
+  #display h3 {
+    font-size: 20px;
+  }
+
+  #display-temp {
+    width: 95%;
+  }
+
+  #display-temp li {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  #input-city {
+    width: 80%;
+  }
+
+  #searchBtn {
+    width: 20%;
+  }
+
+  #display h3 {
+    font-size: 16px;
+  }
+}

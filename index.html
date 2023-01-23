@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WeatherApp</title>
+  </head>
+  <body>
+    <section id="search">
+      <div>
+        <input type="text" id="input-city" placeholder="Search your city" />
+        <button id="searchBtn">Search</button>
+      </div>
+    </section>
+    <section id="display">
+      <div>
+        <h3 id="city-name"></h3>
+      </div>
+      <div id="display-temp">
+        <ul id="ul">
+          <li>
+            Current temperature <br />
+            <li id="temp">- - -</li>
+          </li>
+          <li>
+            Min Temperature <br />
+            <li id="min-temp">---</li>
+          </li>
+          <li>
+            Max Temperature <br />
+            <li id="max-temp">---</li>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
